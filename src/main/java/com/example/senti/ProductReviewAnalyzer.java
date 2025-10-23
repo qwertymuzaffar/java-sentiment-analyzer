@@ -23,7 +23,7 @@ public class ProductReviewAnalyzer {
         
         try {
             // Load reviews from CSV
-            List<String[]> reviews = analyzer.loadReviews("src/main/resources/product_reviews.csv");
+            List<String[]> reviews = analyzer.loadReviews("src/main/resources/new_products_review.csv");
             Map<String, Integer> sentimentDistribution = new LinkedHashMap<>();
             sentimentDistribution.put("Very Positive", 0);
             sentimentDistribution.put("Positive", 0);
